@@ -33,7 +33,7 @@ docker run -P -p 3200:3200 -p 3300:3300 -p 8000:8000 -p 44300:44300 -h vhcalnplc
 ```sh
 sysctl vm.max_map_count
 sysctl -w vm.max_map_count=1000000
-./install.sh
+./install.sh -s
 ```
 
 5. Start NetWeaver
