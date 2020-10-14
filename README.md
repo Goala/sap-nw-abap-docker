@@ -36,6 +36,14 @@ sysctl -w vm.max_map_count=1000000
 ./install.sh -s
 ```
 
+> Alternativly you can also execute the run.sh script.
+
+> ```sh
+> sysctl vm.max_map_count
+> sysctl -w vm.max_map_count=1000000
+> ./run.sh
+> ```
+
 5. Start NetWeaver
 
 The above command will start the container and open a command prompt. While SAP NetWeaver ABAP is installed, it is not started automatically by the image. You need to start the server manually.
